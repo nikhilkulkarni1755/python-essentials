@@ -1,6 +1,8 @@
-from sameCase import toLowerCase
+from lowercase import sameCase
+from tree import expressionSolving
+# test = input('Enter a string to convert to all lowercase in O(N)\n')
 
-test = input('Enter a string to convert to all lowercase in O(N)\n')
+# print(sameCase.toLowerCase(test))
 
-print(toLowerCase(test))
-
+test = input('Enter a mathematical expression\n')
+print(expressionSolving.solveExpression(test))
